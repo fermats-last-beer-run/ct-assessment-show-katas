@@ -1,15 +1,11 @@
-let kata16_heading = document.createElement('h1')
-let kata16_text = document.createTextNode("Kata 16: ")
-kata16_heading.appendChild(kata16_text)
-document.body.append(kata16_heading)
+let kata18_heading = document.createElement('h1')
+let kata18_text = document.createTextNode("Kata 18: ")
+kata18_heading.appendChild(kata18_text)
+document.body.append(kata18_heading)
 
-let kata16_list = []
+let minValue = Math.min(...sampleArray)
 
-for (let i = 0; i < sampleArray.length; i++) { 
-    kata16_list.push(sampleArray[i] * sampleArray[i])
-}
-
-let kata16_answer = document.createElement('p')
-let kata16_answer_text = document.createTextNode(kata16_list)
-kata16_answer.appendChild(kata16_answer_text)
-document.body.append(kata16_answer)
+let kata18_answer = document.createElement('p')
+let kata18_answer_text = document.createTextNode(minValue)
+kata18_answer.appendChild(kata18_answer_text)
+document.body.append(kata18_answer)

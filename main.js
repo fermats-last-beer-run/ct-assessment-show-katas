@@ -272,8 +272,30 @@ kata16_answer.appendChild(kata16_answer_text)
 document.body.append(kata16_answer)
 
 // Display the smallest element in sampleArray.
+let kata17_heading = document.createElement('h1')
+let kata17_text = document.createTextNode("Kata 17: ")
+kata17_heading.appendChild(kata17_text)
+document.body.append(kata17_heading)
+
+let minValue = Math.min(...sampleArray)
+
+let kata17_answer = document.createElement('p')
+let kata17_answer_text = document.createTextNode(minValue)
+kata17_answer.appendChild(kata17_answer_text)
+document.body.append(kata17_answer)
 
 // Display the largest element in sampleArray.
+let kata18_heading = document.createElement('h1')
+let kata18_text = document.createTextNode("Kata 18: ")
+kata18_heading.appendChild(kata18_text)
+document.body.append(kata18_heading)
+
+let maxValue = Math.max(...sampleArray)
+
+let kata18_answer = document.createElement('p')
+let kata18_answer_text = document.createTextNode(maxValue)
+kata18_answer.appendChild(kata18_answer_text)
+document.body.append(kata18_answer)
 
 
 
