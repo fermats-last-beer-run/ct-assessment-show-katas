@@ -272,15 +272,7 @@ kata16_answer.appendChild(kata16_answer_text)
 document.body.append(kata16_answer)
 
 // Display the smallest element in sampleArray.
-let kata16_heading = document.createElement('h1')
-let kata16_text = document.createTextNode("Kata 16: ")
-kata16_heading.appendChild(kata16_text)
-document.body.append(kata16_heading)
 
-let kata16_answer = document.createElement('p')
-let kata16_answer_text = document.createTextNode(kata16_list)
-kata16_answer.appendChild(kata16_answer_text)
-document.body.append(kata16_answer)
 // Display the largest element in sampleArray.
 
 
