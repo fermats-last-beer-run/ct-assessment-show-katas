@@ -203,10 +203,84 @@ kata12_answer.appendChild(kata12_answer_text)
 document.body.append(kata12_answer)
 
 // Display all the odd numbers contained in sampleArray. (469, 755, 245, …, 179, 535)
+let kata13_heading = document.createElement('h1')
+let kata13_text = document.createTextNode("Kata 13: ")
+kata13_heading.appendChild(kata13_text)
+document.body.append(kata13_heading)
+
+let kata13_list = []
+
+for (let i = 0; i < sampleArray.length; i++) {
+    if(sampleArray[i] % 2 == 1) 
+        kata13_list.push(sampleArray[i])
+}
+
+let kata13_answer = document.createElement('p')
+let kata13_answer_text = document.createTextNode(kata13_list)
+kata13_answer.appendChild(kata13_answer_text)
+document.body.append(kata13_answer)
+
 // Display the square of each element in sampleArray. (219961, 570025, …, 222784)
+let kata14_heading = document.createElement('h1')
+let kata14_text = document.createTextNode("Kata 13: ")
+kata14_heading.appendChild(kata14_text)
+document.body.append(kata14_heading)
+
+let kata14_list = []
+
+for (let i = 0; i < sampleArray.length; i++) { 
+    kata14_list.push(sampleArray[i] * sampleArray[i])
+}
+
+let kata14_answer = document.createElement('p')
+let kata14_answer_text = document.createTextNode(kata14_list)
+kata14_answer.appendChild(kata14_answer_text)
+document.body.append(kata14_answer)
+
 // Display the sum of all the numbers from 1 to 20.
-// Display the sum of all the elements in sampleArray.
+let kata15_heading = document.createElement('h1')
+let kata15_text = document.createTextNode("Kata 15: ")
+kata15_heading.appendChild(kata15_text)
+document.body.append(kata15_heading)
+
+let kata15_sum = 0
+
+for(let i = 1; i <= 20; i++) {
+    kata15_sum += i
+}
+
+let kata15_answer = document.createElement('p')
+let kata15_answer_text = document.createTextNode(kata15_sum)
+kata15_answer.appendChild(kata15_answer_text)
+document.body.append(kata15_answer)
+
+// Display the sum of all the elements in sampleArray
+let kata16_heading = document.createElement('h1')
+let kata16_text = document.createTextNode("Kata 16: ")
+kata16_heading.appendChild(kata16_text)
+document.body.append(kata16_heading)
+
+let kata16_sum = 0
+
+for (let i = 0; i < sampleArray.length; i++) { 
+    kata16_sum += sampleArray[i]
+}
+
+let kata16_answer = document.createElement('p')
+let kata16_answer_text = document.createTextNode(kata16_sum)
+kata16_answer.appendChild(kata16_answer_text)
+document.body.append(kata16_answer)
+
 // Display the smallest element in sampleArray.
+let kata16_heading = document.createElement('h1')
+let kata16_text = document.createTextNode("Kata 16: ")
+kata16_heading.appendChild(kata16_text)
+document.body.append(kata16_heading)
+
+let kata16_answer = document.createElement('p')
+let kata16_answer_text = document.createTextNode(kata16_list)
+kata16_answer.appendChild(kata16_answer_text)
+document.body.append(kata16_answer)
 // Display the largest element in sampleArray.
 
 
