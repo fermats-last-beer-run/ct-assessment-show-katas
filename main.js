@@ -228,7 +228,6 @@ let kata12_list = []
         within the forEach we define a temporary variable named value - this variable will become each value of the array in turn
         we use arrow function notation (=>) to create a function
         and within that function we perform our actions.
-
     So the basic logic here is -
         for each value of sampleArray, perform some function
         www.mdn.io/foreach
@@ -356,6 +355,3 @@ let kata18_answer = document.createElement('p')
 let kata18_answer_text = document.createTextNode(maxValue)
 kata18_answer.appendChild(kata18_answer_text)
 document.body.append(kata18_answer)
-
-
-
